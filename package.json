@@ -4,6 +4,7 @@
   "description": "A CoffeeScript interactive console (REPL) as a webpage.",
   "main": "js/main.js",
   "dependencies": {
+    "coffee-script": "",
     "jquery": ""
   },
   "devDependencies": {
