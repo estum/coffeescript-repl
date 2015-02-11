@@ -20,6 +20,9 @@
     "url": "https://github.com/larryng/coffeescript-repl.git"
   },
   "author": "Larry Ng <ng.larry@gmail.com> https://github.com/larryng",
+  "contributors": [
+    "Tōnis Simo <anton.estum@gmail.com> https://github.com/estum"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/larryng/coffeescript-repl/issues"
