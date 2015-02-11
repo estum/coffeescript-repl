@@ -189,7 +189,8 @@ $ ->
     # help
     window.help = ->
       repl.print do ->
-        """ 
+        """
+        
         <strong>Features</strong>
         <strong>========</strong>
         + <strong>Esc</strong> toggles multiline mode.

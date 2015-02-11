@@ -12,7 +12,7 @@ bundler = ->
 build = ->  
   bundler().bundle (err, src) ->
     unless err
-      fs.writeFile "js/bundle.js", src, (err) ->
+      fs.writeFile "js/main.js", src, (err) ->
         unless err
           console.log "✔ browserify complete"
         else
