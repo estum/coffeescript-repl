@@ -292,7 +292,7 @@ module.exports = (function () {
   function formatError(value) {
     return '[' + Error.prototype.toString.call(value) + ']';
   }
-  
+  exports.formatError = formatError;
   
   function formatArray(ctx, value, recurseTimes, visibleKeys, keys) {
     var output = [];

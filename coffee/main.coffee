@@ -68,15 +68,7 @@ $ ->
         window[@settings.lastVariable] = value
         output = nodeutil.inspect value, @settings.showHidden, @settings.maxDepth, @settings.colorize
       catch e
-        if e.stack
-          output = e.stack
-          
-          # FF doesn't have Error.toString() as the first line of Error.stack
-          # while Chrome does.
-          if output.split('\n')[0] isnt e.toString()
-            ouput = "#{e.toString()}\n#{e.stack}"
-        else
-          output = e.toString()
+        output = nodeutil.inspect e, @settings.showHidden, @settings.maxDepth, @settings.colorize
       @saved = ''
       @print output
     
