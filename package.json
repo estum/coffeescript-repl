@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "A CoffeeScript interactive console (REPL) as a webpage.",
   "main": "js/main.js",
+  "dependencies": {
+    "jquery": ""
+  },
+  "devDependencies": {
+    "browserify": "",
+    "coffeeify": "",
+    "minifyify": ""
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
