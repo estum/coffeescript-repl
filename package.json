@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/larryng/coffeescript-repl.git"
+    "url": "https://github.com/estum/coffeescript-repl.git"
   },
   "author": "Larry Ng <ng.larry@gmail.com> https://github.com/larryng",
   "contributors": [
@@ -25,7 +25,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/larryng/coffeescript-repl/issues"
+    "url": "https://github.com/estum/coffeescript-repl/issues"
   },
-  "homepage": "http://larryng.github.com/coffeescript-repl"
+  "homepage": "http://estum.github.com/coffeescript-repl"
 }
